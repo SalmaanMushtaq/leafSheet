@@ -18,7 +18,7 @@ function Navbar() {
       <ul className="flex gap-4">
         <li>
           <NavLink
-            to="/"
+            to="/profile"
             className="p-1 px-6 bg-background rounded-full
           hover:shadow-[0px_0px_2px_10px] hover:shadow-yellow-950  hover:outline-none hover:ring-2 hover:ring-basic hover:ring-offset-2 hover:ring-offset-btnBackground"
           >

@@ -35,7 +35,7 @@ function Introduction() {
       </div>
       <div className=" flex justify-center  items-center sm:w-full lg:w-1/2 md:w-full">
         <img
-          src="../assets/images/salm.jpeg"
+          src="./assets/images/salm.jpeg"
           alt=""
           className="h-[66vh] rounded-t-full"
         />
