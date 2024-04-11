@@ -1,0 +1,1 @@
+import{j as o}from"./index-DLD5awfm.js";import{I as s,P as r}from"./Profile-B2umUKyg.js";function i(){return o.jsx("div",{className:"mt-10 mb-16 flex justify-center",children:o.jsx("img",{src:"profile/assets/images/commingSoon.gif",alt:"image"})})}function n(){return o.jsxs(o.Fragment,{children:[o.jsx(s,{}),o.jsx(r,{heading:"Portfolio"}),o.jsx(i,{})]})}export{n as default};
