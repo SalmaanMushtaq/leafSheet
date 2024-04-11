@@ -6,7 +6,7 @@ function DownloadCV() {
       <h1 className="font-bold text-xl">Interested in my work?</h1>
       <div className="flex gap-3 justify-center items-center">
         <a
-          href="./assets/cv/Salmaan_Mushtaq.pdf"
+          href="profile/assets/cv/Salmaan_Mushtaq.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btnHover p-1 px-6 bg-basic rounded-full flex justify-between gap-3 items-center font-semibold"
@@ -14,7 +14,7 @@ function DownloadCV() {
           View CV <FaRegEye className="text-xl" />
         </a>
         <a
-          href="./assets/cv/Salmaan_Mushtaq.pdf"
+          href="profile/assets/cv/Salmaan_Mushtaq.pdf"
           download="Salmaan-Mushtaq.pdf"
           className="btnHover p-1 px-6 bg-basic rounded-full flex justify-between gap-3 items-center font-semibold"
         >
