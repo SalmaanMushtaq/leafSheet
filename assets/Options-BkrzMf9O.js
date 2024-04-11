@@ -1,0 +1,1 @@
+import{j as n}from"./index-Dqs2BvCy.js";function s({text:t}){return n.jsx("button",{className:"p-1 px-6 bg-btnBackground rounded-full",children:t})}function a({options:t,isActive:e}){return n.jsx("div",{className:"mt-4 gap-4 flex flex-wrap justify-center md:justify-evenly bg-background rounded-full p-2",children:t.map((r,u)=>n.jsx(s,{text:r,isActive:e},u))})}export{a as O};
