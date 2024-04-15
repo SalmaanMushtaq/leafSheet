@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FaHandshake } from "react-icons/fa6";
+import { toast, Zoom } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function GetInTouch() {
   const [userData, setUserData] = useState({
@@ -54,6 +56,12 @@ function GetInTouch() {
         message: "",
       });
       // Add code to submit the form data here
+      // Toast message code
+      toast.success("Message Sent Succefully!", {
+        theme: "dark",
+        transition: Zoom,
+        toastStyle: { backgroundColor: "green" },
+      });
     }
   };
 
