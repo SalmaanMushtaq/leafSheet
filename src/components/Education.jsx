@@ -9,7 +9,7 @@ function Education() {
         </span>
         Education
       </h1>
-      <div className="mt-8 grid grid-rows-2 grid-cols-2 gap-10 ms-10 ps-8">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-10 ms-10 ps-8">
         <div>
           <h1 className="font-bold flex gap-3 items-center">
             <span className="border-2 p-1 border-basic rounded-full">

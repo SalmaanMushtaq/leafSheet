@@ -17,7 +17,7 @@ function TechSkills() {
         </span>
         Technical Skills
       </h1>
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10 ms-10 ps-8">
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10 ps-8">
         <div>
           <h1 className="font-bold flex flex-col gap-3 items-center">
             <span className="border-[15px] border-basic p-5 rounded-full border-t-background">
