@@ -9,11 +9,20 @@ import TechSkills from "../components/TechSkills";
 
 function ProfilePage() {
   return (
-    <div className="container mx-auto">
+    <div className="container pr-4">
       <Introduction />
       <Profile heading="Profile" />
-      <Options options={["Education", "Technical Skills", "Experience"]} />
-      <Options options={["Languages", "Soft Skills", "Interests"]} />
+      <Options
+        options={[
+          "Education",
+          "Tech Skills",
+          "Experience",
+          "Languages",
+          "Soft Skills",
+          "Interests",
+        ]}
+      />
+      {/* <Options options={["Languages", "Soft Skills", "Interests"]} /> */}
       <Education />
       <TechSkills />
       <Languages />

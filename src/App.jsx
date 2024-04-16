@@ -12,7 +12,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen w-fit">
       <BrowserRouter>
         <Suspense fallback={<SpinnerFullPage />}>
           <Navbar />

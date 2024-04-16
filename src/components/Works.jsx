@@ -1,7 +1,35 @@
+import Work from "./Work";
+
+const projectsArray = [
+  {
+    id: 1,
+    name: "Resturant Landing Page",
+    description: "This is the restuurant landing page",
+    pictures: [
+      "rlp/rlp1",
+      "rlp/rlp2",
+      "rlp/rlp3",
+      "rlp/rlp4",
+      "rlp/rlpM1",
+      "rlp/rlpM2",
+    ],
+    githubLink: "https://github.com/SalmaanMushtaq/restaurant-landing-page",
+  },
+  {
+    id: 2,
+    name: "Personal Portfolio",
+    description: "My personal portfolio",
+    pictures: ["rlp1", "rlp2", "rlp3", "rlp4", "rlpM1", "rlpM2"],
+    githubLink: "https://github.com/SalmaanMushtaq/profile",
+  },
+];
 function Works() {
   return (
-    <div className="mt-10 mb-16 flex justify-center">
-      <img src="profile/assets/images/commingSoon.gif" alt="image" />
+    <div className="mt-10 grid grid-cols-1 gap-6">
+      {/* <img src="profile/assets/images/commingSoon.gif" alt="image" /> */}
+      {projectsArray.map((project) => (
+        <Work key={project.id} project={project} />
+      ))}
     </div>
   );
 }

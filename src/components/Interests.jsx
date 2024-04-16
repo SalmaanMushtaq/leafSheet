@@ -16,7 +16,7 @@ function Interests() {
         </span>
         Interests
       </h1>
-      <div className="place-items-center mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 ms-10 ps-8">
+      <div className="place-items-center mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 ps-8">
         <div className="w-[90%] h-40 sm:w-[60%] sm:h-40 flex flex-col justify-center items-center rounded-tr-[2rem] rounded-bl-[2rem] border-t-background border-[12px]  border-basic">
           <IoChatbubblesOutline className=" text-6xl bg-transparent" />
           <p className=" text-center bg-transparent break-words">

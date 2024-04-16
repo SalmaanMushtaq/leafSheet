@@ -9,7 +9,9 @@
   color: #fff;
 }
 body {
-  margin: auto 2rem;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0 1rem;
   /* font-family: "Roboto", sans-serif; */
   /* font-family: "Montserrat", sans-serif; */
   /* font-family: "Open Sans", sans-serif; */
