@@ -2,7 +2,7 @@
 import Button from "../components/Button";
 function Options({ options }) {
   return (
-    <div className="mt-4 gap-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 bg-background rounded-2xl p-4 lg:rounded-full">
+    <div className="mt-10 w-[96vw] gap-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 bg-background rounded-2xl p-4 lg:rounded-full">
       {options.map((option, index) => (
         <Button key={index} text={option} />
       ))}

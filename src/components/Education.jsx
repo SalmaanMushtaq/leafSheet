@@ -2,7 +2,7 @@ import { PiGraduationCap } from "react-icons/pi";
 import { TiTickOutline } from "react-icons/ti";
 function Education() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 w-[96vw]">
       <h1 className="text-4xl font-bold leading-relaxed flex gap-4 items-center">
         <span className="bg-basic p-3 rounded-full">
           <PiGraduationCap className="bg-basic" />

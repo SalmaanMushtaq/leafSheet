@@ -25,7 +25,7 @@ const projectsArray = [
 ];
 function Works() {
   return (
-    <div className="mt-10 grid grid-cols-1 gap-6">
+    <div className="mt-10 grid grid-cols-1 gap-6 w-[96vw]">
       {/* <img src="profile/assets/images/commingSoon.gif" alt="image" /> */}
       {projectsArray.map((project) => (
         <Work key={project.id} project={project} />

@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 function Profile({ heading }) {
   return (
-    <div className="mt-10 mb-16">
+    <div className="mt-10 w-[96vw]">
       <h1 className="text-4xl font-bold leading-relaxed">{heading}</h1>
       <div className="mt-10 justify-center items-center gap-10">
         <div className="border-0 p-3 px-5 bg-background rounded-2xl h-[100%]">

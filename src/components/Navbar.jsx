@@ -13,7 +13,7 @@ function Navbar() {
   // };
 
   return (
-    <nav className="flex sm:justify-end sm:items-center gap-4 pt-20 pb-3">
+    <nav className="flex sm:justify-end sm:items-center gap-4 pt-20 pb-3 w-[96vw]">
       {/* Navigation links */}
       <ul className="flex gap-4">
         <li>
