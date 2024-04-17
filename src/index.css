@@ -137,7 +137,7 @@ body {
 }
 
 svg text {
-  animation: stroke 7s infinite alternate;
+  animation: stroke 7s forwards alternate;
   stroke-width: 2;
   stroke: #ff9559;
   font-size: 3rem;
@@ -165,5 +165,35 @@ svg text {
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0;
     stroke-width: 0;
+  }
+}
+.animate-heart {
+  animation: customAni 4s cubic-bezier(0.22, 1, 0.36, 1) 1s 1 normal none;
+}
+@keyframes customAni {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
   }
 }

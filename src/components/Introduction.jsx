@@ -1,4 +1,4 @@
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Introduction() {
   return (
@@ -14,8 +14,8 @@ function Introduction() {
           <span className="rounded-full inline-block font-bold border-b-8 border-basic w-10"></span>
         </p>
 
-        {/* <h1 className="font-bold text-6xl text-basic leading-normal"> */}
-        {/* <motion.div
+        <h1 className="font-bold text-6xl text-basic leading-normal">
+          <motion.div
             className="box text-basic"
             animate={{
               scale: [0, 0.5, 1.2, 1],
@@ -29,22 +29,22 @@ function Introduction() {
               repeat: 0,
               repeatDelay: 1,
             }}
-          > */}
-        <svg className="h-36 ms-[-1rem] sm:ms-[-1rem] md:ms-[-4.5rem]  lg:ms-[-3rem] xl:ms-[-12rem]">
+          >
+            {/* <svg className="h-36 ms-[-1rem] sm:ms-[-1rem] md:ms-[-4.5rem]  lg:ms-[-3rem] xl:ms-[-12rem]">
           <text
             x="50%"
             y="50%"
             dy=".35em"
             textAnchor="middle"
             className="text-[5rem]"
-          >
+          > */}
             Salmaan
-          </text>
-        </svg>
-        {/* </motion.div> */}
-        {/* </h1> */}
+            {/* </text>
+        </svg> */}
+          </motion.div>
+        </h1>
         <h3 className="font-semibold text-3xl leading-tight">Mushtaq</h3>
-        <h5 className="text-3xl font-light text-basic mt-4">
+        <h5 className="text-3xl font-light text-basic mt-4 animate-pulse bg-transparent">
           Front End Developer
         </h5>
       </div>
@@ -53,7 +53,7 @@ function Introduction() {
           src="/profile/assets/images/salm.jpeg"
           alt=""
           loading="lazy"
-          className="h-[90vh] lg:h-[66vh] rounded-t-full"
+          className="h-[90vh] lg:h-[66vh] rounded-t-full animate-heart"
         />
       </div>
     </div>
