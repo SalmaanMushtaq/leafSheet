@@ -52,6 +52,7 @@ function Introduction() {
         <img
           src="/profile/assets/images/salm.jpeg"
           alt=""
+          loading="lazy"
           className="h-[90vh] lg:h-[66vh] rounded-t-full"
         />
       </div>

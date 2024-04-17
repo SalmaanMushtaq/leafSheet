@@ -21,6 +21,7 @@ function Work({ project }) {
               src={`profile/assets/projects/${picture}.png`}
               alt={`Picture ${index + 1}`}
               className="w-full rounded-lg h-[100%]"
+              loading="lazy"
             />
           </div>
         ))}

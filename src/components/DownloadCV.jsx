@@ -15,7 +15,7 @@ function DownloadCV() {
         </a>
         <a
           href="profile/assets/cv/Salmaan_Mushtaq.pdf"
-          download="Salmaan-Mushtaq.pdf"
+          download="Salmaan_Mushtaq.pdf"
           className="btnHover p-1 px-6 bg-basic rounded-full flex justify-between gap-3 items-center font-semibold"
         >
           Download CV <IoCloudDownloadOutline className="text-xl" />
