@@ -19,7 +19,14 @@ const projectsArray = [
     id: 2,
     name: "Personal Portfolio",
     description: "My personal portfolio",
-    pictures: ["rlp1", "rlp2", "rlp3", "rlp4", "rlpM1", "rlpM2"],
+    pictures: [
+      "port/port1",
+      "port/port2",
+      "port/port3",
+      "port/port4",
+      "port/port5",
+      "port/port6",
+    ],
     githubLink: "https://github.com/SalmaanMushtaq/profile",
   },
 ];
