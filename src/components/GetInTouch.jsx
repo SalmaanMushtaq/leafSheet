@@ -66,7 +66,7 @@ function GetInTouch() {
   };
 
   return (
-    <div className="mt-10 w-[96vw]">
+    <div className="mt-10">
       <h1 className="text-4xl font-bold leading-relaxed flex gap-4 items-center">
         <span className="bg-basic p-3 rounded-full">
           <FaHandshake className="bg-basic" />

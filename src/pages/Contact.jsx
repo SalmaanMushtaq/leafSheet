@@ -6,13 +6,13 @@ import GetInTouch from "../components/GetInTouch";
 
 function Contact() {
   return (
-    <div className="container pr-4">
+    <>
       <Introduction />
       <Profile />
       <ContactMe />
       <GetInTouch />
       <DownloadCV />
-    </div>
+    </>
   );
 }
 

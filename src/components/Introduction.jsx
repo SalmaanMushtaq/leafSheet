@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Introduction() {
   return (
-    <div className="mt-10 flex flex-col sm:flex-row lg:flex-row justify-between tracking-wide items-center gap-4 w-[96vw]">
+    <div className="mt-10 flex flex-col sm:flex-row lg:flex-row justify-between tracking-wide items-center gap-4">
       <div className="flex flex-col justify-end sm:w-full lg:w-2/3 md:w-full lg:pl-[15rem]">
         <p>
           {/* <svg className="h-12 ms-[-4rem]"> */}

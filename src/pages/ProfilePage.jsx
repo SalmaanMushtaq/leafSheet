@@ -9,7 +9,7 @@ import TechSkills from "../components/TechSkills";
 
 function ProfilePage() {
   return (
-    <div className="container pr-4">
+    <>
       <Introduction />
       <Profile heading="Profile" />
       <Options
@@ -28,7 +28,7 @@ function ProfilePage() {
       <Languages />
       <Interests />
       <DownloadCV />
-    </div>
+    </>
   );
 }
 

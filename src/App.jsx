@@ -12,11 +12,11 @@ const Contact = lazy(() => import("./pages/Contact"));
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen w-fit">
+    <div className="flex flex-col min-h-screen">
       <BrowserRouter>
         <Suspense fallback={<SpinnerFullPage />}>
           <Navbar />
-          <main className="flex-grow">
+          <main className="container flex-grow px-4 md:px-8 lg:px-16">
             <Routes>
               <Route path="profile" element={<Profile />} />
               <Route path="portfolio" element={<Portfolio />} />
