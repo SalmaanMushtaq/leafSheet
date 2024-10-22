@@ -13,7 +13,7 @@ function Footer() {
   const [terms, setTerms] = useState(false);
   const [privacy, setPrivacy] = useState(false);
 
-  // Funnction to handle Terms
+  // Function to handle Terms
   const handleTerms = () => {
     setTerms(!terms);
     setPrivacy(false);
@@ -26,8 +26,8 @@ function Footer() {
   };
 
   return (
-    <footer className="mt-auto text-center py-8 w-[96vw]">
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+    <footer className="container md:px-16 mt-auto text-center py-8">
+      <div className=" mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-lg">
           <p>&copy; {date} Salmaan Mushtaq</p>
           <p className="text-sm">All rights reserved.</p>
@@ -66,40 +66,6 @@ function Footer() {
             <FaWhatsapp className="bg-background socialSvg whatsappSvg" />
           </a>
         </div>
-        {/* <div className="flex gap-4 mt-4 lg:mt-0">
-          <a
-            className="text-white hover:text-gray-300"
-            href="https://www.instagram.com/salmaan4746"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram className="text-xl" />
-          </a>
-          <a
-            className="text-white hover:text-gray-300"
-            href="https://twitter.com/your-twitter-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter className="text-xl" />
-          </a>
-          <a
-            className="text-white hover:text-gray-300"
-            href="https://www.linkedin.com/in/salmaan-mushtaq-5b4998242"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedinIn className="text-xl" />
-          </a>
-          <a
-            className="text-white hover:text-gray-300"
-            href="https://wa.me/+917006172734"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp className="text-xl" />
-          </a>
-        </div> */}
       </div>
       <div className="text-center text-sm mt-4">
         <a
