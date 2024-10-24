@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Suspense fallback={<SpinnerFullPage />}>
           <Navbar />
-          <main className="container flex-grow px-4 md:px-8 lg:px-16">
+          <main className="container mx-auto flex-grow px-4 md:px-8 lg:px-16">
             <Routes>
               <Route path="profile" element={<Profile />} />
               <Route path="portfolio" element={<Portfolio />} />

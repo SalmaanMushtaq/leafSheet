@@ -26,8 +26,8 @@ function Footer() {
   };
 
   return (
-    <footer className="container md:px-16 mt-auto text-center py-8">
-      <div className=" mx-auto flex flex-col md:flex-row justify-between items-center">
+    <footer className="container mx-auto md:px-16 mt-auto text-center py-8">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-lg">
           <p>&copy; {date} Salmaan Mushtaq</p>
           <p className="text-sm">All rights reserved.</p>
