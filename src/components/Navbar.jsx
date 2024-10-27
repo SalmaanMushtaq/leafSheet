@@ -20,8 +20,8 @@ function Navbar() {
     <header className="container mx-auto">
       {/* Desktop Navbar */}
       <nav
-        className={`container px-16 hidden  sm:flex sm:justify-end sm:items-center gap-4 pt-20 pb-3
-        ${isFixed ? "fixed top-0 w-full pt-4 z-10" : ""}`}
+        className={`container px-16 hidden  sm:flex sm:justify-end sm:items-center gap-4 pt-8 pb-3
+        ${isFixed ? "fixed top-0 w-full z-10" : ""}`}
       >
         <ul className="flex gap-4 flex-wrap">
           <li>

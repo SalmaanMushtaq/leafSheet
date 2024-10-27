@@ -13,6 +13,11 @@ const Contact = lazy(() => import("./pages/Contact"));
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+      <img
+        src="/profile/assets/images/rainbow-superthin.webp"
+        alt=""
+        className="w-full z-12 h-1"
+      />
       <BrowserRouter>
         <Suspense fallback={<SpinnerFullPage />}>
           <Navbar />
@@ -38,6 +43,11 @@ function App() {
         pauseOnHover
         theme="dark"
         style={{ backgroundColor: "transparent" }}
+      />
+      <img
+        src="/profile/assets/images/rainbow-superthin.webp"
+        alt=""
+        className="w-full z-12 h-1"
       />
     </div>
   );
