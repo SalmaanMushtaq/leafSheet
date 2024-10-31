@@ -88,7 +88,7 @@ function Footer() {
       </div>
       {/* Terms of Service and Privacy Policy text */}
       {terms && (
-        <div className="container mx-auto mt-8 max-w-2xl text-left text-sm">
+        <div className="px-8 container mx-auto mt-8 max-w-2xl text-left text-sm">
           <h2 className="text-xl font-bold mb-4">Terms of Service</h2>
           <p>
             👉 Welcome to Salmaan Mushtaq&apos;s portfolio website! By accessing
@@ -110,7 +110,7 @@ function Footer() {
       )}
       {/* More details will be added later on */}
       {privacy && (
-        <div className="container mx-auto mt-8 max-w-2xl text-left text-sm">
+        <div className="px-8 container mx-auto mt-8 max-w-2xl text-left text-sm">
           <h2 className="text-xl font-bold mt-8 mb-4">Privacy Policy</h2>
           <p>
             👉 This Privacy Policy outlines how Salmaan Mushtaq collects, uses,
