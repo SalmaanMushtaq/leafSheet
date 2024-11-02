@@ -52,8 +52,8 @@ function Introduction() {
         <img
           src="/profile/assets/images/myself.webp"
           alt=""
-          loading="lazy"
-          className="lg:h-[50vh] rounded-full"
+          loading="eager"
+          className="lg:h-[50vh] rounded-[2rem]"
         />
       </div>
     </div>
