@@ -11,16 +11,27 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  /* padding: 0 1rem; */
-  /* font-family: "Roboto", sans-serif; */
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family: "Lato", sans-serif; */
-  /* font-family: "Playfair Display", serif; */
   font-family: "Merriweather", serif;
   letter-spacing: 1px;
 }
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #363636;
+  border: 1px solid whitesmoke;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: whitesmoke;
+  border: 1px solid #363636;
+}
 .active {
   background-color: hwb(22 35% 0%);
   color: #070707;

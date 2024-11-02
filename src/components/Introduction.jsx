@@ -50,10 +50,10 @@ function Introduction() {
       </div>
       <div className=" flex justify-center  items-center sm:w-full lg:w-1/2 md:w-full">
         <img
-          src="/profile/assets/images/salm.jpeg"
+          src="/profile/assets/images/myself.webp"
           alt=""
           loading="lazy"
-          className="h-[90vh] lg:h-[66vh] rounded-t-full animate-heart"
+          className="lg:h-[50vh] rounded-full"
         />
       </div>
     </div>
