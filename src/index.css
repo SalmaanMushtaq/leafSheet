@@ -5,14 +5,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #070707;
-  color: #fff;
+  background-color: #181313ed;
+  color: whitesmoke;
 }
 body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Merriweather", serif;
   letter-spacing: 1px;
+}
+.customShadow {
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.1) inset,
+    -10px -10px 10px rgba(0, 0, 0, 0.6) inset;
 }
 ::-webkit-scrollbar {
   width: 6px;
@@ -51,21 +55,25 @@ body {
 
 /* Instagram */
 .containerOne:hover {
+  border-color: whitesmoke;
   background-color: #eb3a89;
 }
 
-/* Twitter */
+/* GitHub */
 .containerTwo:hover {
-  background-color: #00acee;
+  border-color: whitesmoke;
+  background-color: #2d2784;
 }
 
 /* Linkedin */
 .containerThree:hover {
+  border-color: whitesmoke;
   background-color: #0072b1;
 }
 
 /* Whatsapp */
 .containerFour:hover {
+  border-color: whitesmoke;
   background-color: #128c7e;
 }
 
@@ -206,5 +214,32 @@ svg text {
   45% {
     animation-timing-function: ease-out;
     transform: scale(1);
+  }
+}
+.border-wrapper {
+  position: relative;
+  border-color: rgb(255 149 89);
+}
+
+.border-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  border: 16px solid transparent;
+  border-top-color: rgba(44, 44, 44);
+  border-radius: 50%;
+  animation: spin-border 4s linear infinite;
+  z-index: 1;
+}
+
+@keyframes spin-border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

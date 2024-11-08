@@ -4,7 +4,7 @@ import { TiTickOutline } from "react-icons/ti";
 function Language({ name, proficiency, progress }) {
   return (
     <>
-      <div>
+      <div id="languages">
         <h2 className="font-bold text-lg flex gap-3 items-center">
           <span className="border-2 p-1 border-basic rounded-full">
             <TiTickOutline className="rounded-full" />
@@ -24,13 +24,13 @@ function Language({ name, proficiency, progress }) {
         ))}
       </div>
       <div className="gap-2 flex flex-col justify-around">
-        <button className="h-6 text-basic bg-background rounded-full">
+        <button className="h-6 text-white bg-background rounded-full">
           Speaking
         </button>
-        <button className="h-6 text-basic bg-background rounded-full">
+        <button className="h-6 text-white bg-background rounded-full">
           Writing
         </button>
-        <button className="h-6 text-basic bg-background rounded-full">
+        <button className="h-6 text-white bg-background rounded-full">
           Comprehension
         </button>
       </div>

@@ -1,10 +1,11 @@
 import { useState } from "react";
 import {
   FaInstagram,
-  FaTwitter,
+  // FaTwitter,
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 function Footer() {
   const date = new Date().getFullYear();
@@ -34,7 +35,7 @@ function Footer() {
         </div>
         <div className="flex items-center gap-2 mt-2">
           <a
-            className="socialContainer containerOne"
+            className="customShadow border border-navLinkBorder socialContainer containerOne"
             href="https://www.instagram.com/salmaan4746"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,18 +43,19 @@ function Footer() {
             <FaInstagram className="bg-background socialSvg instagramSvg" />
           </a>
           <a
-            href="https://twitter.com/your-twitter-profile"
+            href="https://github.com/SalmaanMushtaq"
             target="_blank"
             rel="noopener noreferrer"
-            className="socialContainer containerTwo"
+            className="socialContainer containerTwo customShadow border border-navLinkBorder"
           >
-            <FaTwitter className="bg-background socialSvg twitterSvg" />
+            <FaGithub className="bg-background socialSvg gitHubSvg" />
+            {/* <FaTwitter className="bg-background socialSvg twitterSvg" /> */}
           </a>
           <a
             href="https://www.linkedin.com/in/salmaan-mushtaq-5b4998242"
             target="_blank"
             rel="noopener noreferrer"
-            className="socialContainer containerThree"
+            className="socialContainer containerThree customShadow border border-navLinkBorder"
           >
             <FaLinkedinIn className="bg-background socialSvg linkdinSvg" />
           </a>
@@ -61,7 +63,7 @@ function Footer() {
             href="https://wa.me/+917006172734"
             target="_blank"
             rel="noopener noreferrer"
-            className="socialContainer containerFour"
+            className="socialContainer containerFour customShadow border border-navLinkBorder"
           >
             <FaWhatsapp className="bg-background socialSvg whatsappSvg" />
           </a>

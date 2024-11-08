@@ -21,14 +21,14 @@ function Navbar() {
       {/* Desktop Navbar */}
       <nav
         className={`container px-16 hidden  sm:flex sm:justify-end sm:items-center gap-4 pt-8 pb-3
-        ${isFixed ? "fixed top-0 w-full z-10" : ""}`}
+        ${isFixed ? "fixed top-0 w-full z-10 bg-[#181313]" : ""}`}
       >
         <ul className="flex gap-4 flex-wrap">
           <li>
             <NavLink
               to="/profile"
-              className="p-1 px-6 bg-background rounded-full transition-all duration-200
-              hover:shadow-[0px_0px_2px_10px] hover:shadow-yellow-950 hover:outline-none hover:ring-2 hover:ring-basic hover:ring-offset-2 hover:ring-offset-btnBackground"
+              className="border-2 border-navLinkBorder customShadow p-1 px-6 bg-background rounded-full transition-all duration-200
+              hover:border-white hover:border-2"
             >
               Profile
             </NavLink>
@@ -36,8 +36,8 @@ function Navbar() {
           <li>
             <NavLink
               to="/portfolio"
-              className="p-1 px-6 bg-background rounded-full transition-all duration-200
-              hover:shadow-[0px_0px_2px_10px] hover:shadow-yellow-950 hover:outline-none hover:ring-2 hover:ring-basic hover:ring-offset-2 hover:ring-offset-btnBackground"
+              className="border-2 border-navLinkBorder customShadow p-1 px-6 bg-background rounded-full transition-all duration-200
+               hover:border-white hover:border-2"
             >
               Portfolio
             </NavLink>
@@ -45,8 +45,8 @@ function Navbar() {
           <li>
             <NavLink
               to="/contact"
-              className="p-1 px-6 bg-background rounded-full transition-all duration-200
-              hover:shadow-[0px_0px_2px_10px] hover:shadow-yellow-950 hover:outline-none hover:ring-2 hover:ring-basic hover:ring-offset-2 hover:ring-offset-btnBackground"
+              className="border-2 border-navLinkBorder customShadow p-1 px-6 bg-background rounded-full transition-all duration-200
+              hover:border-white hover:border-2"
             >
               Contact
             </NavLink>
@@ -57,7 +57,7 @@ function Navbar() {
       {/* Mobile Navbar */}
       <nav
         className={`flex sm:hidden justify-center items-center py-4 ${
-          isFixed ? "w-full fixed top-0  z-10" : ""
+          isFixed ? "w-full fixed top-0  z-10 bg-[#181313]" : ""
         }`}
       >
         <ul className="flex items-center gap-16">
