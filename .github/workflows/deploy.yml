@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Trigger on any push to the main branch
+      - main # Trigger on any push to the main branch.
   pull_request:
     branches:
       - main # Trigger when a pull request is merged into the main branch
@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: "18.x"
 
       # Step 3: Install pnpm
       - name: Install pnpm
