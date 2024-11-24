@@ -42,7 +42,9 @@ function GetInTouch() {
     } else if (!/^\d{10}$/.test(userData.userPhone)) {
       validationErrors.userPhone = "Please enter a valid 10-digit phone number";
     }
-
+    if (!userData.message.trim()) {
+      validationErrors.message = "Please enter a message";
+    }
     if (Object.keys(validationErrors).length > 0) {
       // If there are validation errors, set them and prevent form submission
       setErrors(validationErrors);
@@ -136,9 +138,13 @@ function GetInTouch() {
             onChange={handleChange}
             value={userData.message}
             placeholder="Your Message Here..."
-            className="placeholder:text-formTextColor bg-background p-3 w-full rounded-3xl
-            focus:outline-none focus:ring-4 focus:ring-stone-700 focus:ring-offset-2 focus:ring-offset-btnBackground"
+            className={`placeholder:text-formTextColor bg-background p-3 w-full rounded-3xl
+            focus:outline-none focus:ring-4 focus:ring-stone-700 focus:ring-offset-2 focus:ring-offset-btnBackground
+            ${errors.message && "border border-red-500"}`}
           ></textarea>
+          {errors.message && (
+            <p className="text-red-500 ms-5">{errors.message}</p>
+          )}
         </div>
         <div>
           <button className="float-end btnHover" onClick={handleSubmit}>
