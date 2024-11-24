@@ -1,26 +1,18 @@
 import { useState } from "react";
-import {
-  FaInstagram,
-  // FaTwitter,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
 function Footer() {
   const date = new Date().getFullYear();
 
-  // States for the Terms and Privacy
   const [terms, setTerms] = useState(false);
   const [privacy, setPrivacy] = useState(false);
 
-  // Function to handle Terms
   const handleTerms = () => {
     setTerms(!terms);
     setPrivacy(false);
   };
 
-  // Function to handle Privacy
   const handlePrivacy = () => {
     setPrivacy(!privacy);
     setTerms(false);
