@@ -1,0 +1,2 @@
+import{j as i}from"./index-BHaxPDTu.js";function d({text:e}){const o=e.toLowerCase().replace(/\s+/g,""),n=r=>{r.preventDefault();const t=document.getElementById(o);if(t){const s=t.getBoundingClientRect().top+window.scrollY-96;window.scrollTo({top:s,behavior:"smooth"})}};return i.jsx("a",{className:`customShadow inline-flex justify-center items-center p-1 px-6 bg-btnBackground rounded-full
+      border-2 border-transparent hover:border-white hover:border-2`,href:`#${o}`,onClick:n,children:e})}export{d as B};
